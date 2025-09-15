@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalotsavam 2K25</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      background: linear-gradient(to bottom, #fff, #fff);
+      color: black;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3.5em;
+      margin: 0;
+      text-shadow: 2px 2px 6px white;
+      font-weight: 700;
+    }
+
+    h2 {
+      margin: 10px 0;
+      font-size: 1.6em;
+      color: yellow;
+      font-weight: 600;
+      text-shadow: 2px 2px 6px #101010;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 5px 0;
+      font-weight: 400;
+    }
+
+    /* corner images */
+    .corner {
+      position: absolute;
+      width: 160px;
+      border-radius: 10px;
+    }
+
+    .top-left {
+      top: 20px;
+      left: 20px;
+    }
+
+    .bottom-right {
+      bottom: 20px;
+      right: 20px;
+    }
+
+    /* overlay background */
+    .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: url('images/pattern.png') repeat;
+      opacity: 0.15;
+      z-index: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h2>SMHSS Ayalur Presents</h2>
+    <h1>Kalotsavam 2K25</h1>
+    <p>★ A Celebration of Arts & Culture </p>
+    <p>★ September 20, 2025</p>
+    <p>★ School Auditorium</p>
+  </div>
+
+  <!-- Local images -->
+  <img src="images/kathakali1.png" class="corner top-left">
+  <img src="images/kathakali2.png" class="corner bottom-right">
+
+</body>
+</html>
